@@ -3,25 +3,25 @@ This is my engineering notebook for Junior Year
 
 ## First Code
 _____________________________________________
-import board
-import neopixel
-import time
 
-led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+    import board
+    import neopixel
+    import time
+    led = neopixel.NeoPixel(board.NEOPIXEL, 1)
 
-print("Make it increase!")
-led.brightness = .25
-while True:
+    print("Make it increase!")
+    led.brightness = .25
+    while True:
 
-    colors = range(0, 100, 5)
-    negative = range(100, 0, -5)
-   
-    for r in colors:
-        for g in colors:
-            for b in negative:
-        
-                led.fill((r, g, b))
-                time.sleep(0.01)
+        colors = range(0, 100, 5)
+        negative = range(100, 0, -5)
+
+        for r in colors:
+            for g in colors:
+                for b in negative:
+
+                    led.fill((r, g, b))
+                    time.sleep(0.01)
 _____________________________________________
 
 ### What does this code do?
