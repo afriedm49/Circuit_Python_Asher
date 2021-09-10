@@ -2,6 +2,8 @@
 This is my engineering notebook for Junior Year
 
 ## First Code
+
+I coded this on Mu.
 _____________________________________________
 
     import board
