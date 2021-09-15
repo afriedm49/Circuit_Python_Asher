@@ -1,11 +1,18 @@
-# Engineering3
-This is my engineering notebook for Junior Year
+# Circuit Python
+This is my engineering notebook for Junior Year, where I put documents of code.
 
-## First Code
+## Table of Contents
+* [Table of Contents](#TableOfContents)
+* [Led_Blink_Remix](#Led_Blink_Remix)
+* [CircuitPython_Servo](#CircuitPython_Servo)
+---
 
+## Led_Blink_Remix
+
+### Code
 I coded this on Mu.
-_____________________________________________
 
+```
     import board
     import neopixel
     import time
@@ -24,7 +31,7 @@ _____________________________________________
 
                     led.fill((r, g, b))
                     time.sleep(0.01)
-_____________________________________________
+```
 
 ### What does this code do?
 * The code starts by setting a range from 0 to 100, and another range from 100 to 0.
@@ -33,3 +40,18 @@ _____________________________________________
 * Each time the green value reaches 100, the red value increases by 5 until it reaches 100.
 * After 400 loops of the blue value going down to 0, the entire loop restarts.
 * It takes more than 0.01 seconds for each value to change, so it the time is longer than it says in the code.
+---
+## CircuitPython_Servo
+
+### Description & Code
+
+```python
+Code goes here
+
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
