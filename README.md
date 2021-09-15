@@ -39,7 +39,7 @@ I coded this on Mu.
 * Each time the blue value reaches 0, the green value changes by positive 5 until it reaches 100
 * Each time the green value reaches 100, the red value increases by 5 until it reaches 100.
 * After 400 loops of the blue value going down to 0, the entire loop restarts.
-* It takes more than 0.01 seconds for each value to change, so it the time is longer than it says in the code.
+* There is delay on each value change (It takes more than 0.01 seconds for each blue to decrease by 5)
 ---
 ## CircuitPython_Servo
 
