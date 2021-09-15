@@ -47,7 +47,26 @@ I coded this on Mu.
 
 ```python
 Code goes here
+#180 degrees servo code
 
+from adafruit_motor import servo
+import time
+import pwmio
+import board
+import pulseio
+
+pwm = pulseio.PWMOut(board.D8, frequency=50)
+
+
+Spinner = servo.Servo(pwm, min_pulse = 750, max_pulse = 2250)
+
+while True:
+    if angle < 180:
+        for degree in range(0, 180, 1)
+        Spinner.angle = degree
+        print(angle)
+    else:
+        Spinner.angle = 0
 ```
 
 ### Evidence
