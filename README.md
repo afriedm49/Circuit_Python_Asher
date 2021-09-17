@@ -70,6 +70,11 @@ while True:
 
 ### Wiring
 
+<img src="servoCircuit.png" alt="ServoCircuit" width="400" height="200"/>
+Credit:
+
+[sfunk02](https://github.com/sfunk02/CircuitPython/tree/main/Images)
+
 ### Reflection
 
 The coding was somewhat difficult to figure out at first. I didn't understand how the pwm function worked. I had a lot of mistakes working on it, including file managment, syntax, and missing lines.
