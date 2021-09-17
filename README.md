@@ -64,6 +64,7 @@ while True:
 
 ### Evidence
 
+<img src="ServoGif.gif" alt="ServoGif" width="400" height="200"/>
 ### Wiring
 
 ### Reflection
