@@ -45,6 +45,8 @@ I coded this on Mu.
 
 ### Description & Code
 
+This code makes the servo turn 180 degrees, by moving by 1 degree each step.
+
 ```python
 Code goes here
 #180 degrees servo code
@@ -74,3 +76,5 @@ while True:
 ### Wiring
 
 ### Reflection
+
+The coding was somewhat difficult to figure out at first. I didn't understand how the pwm function worked. I had a lot of mistakes working on it, including file managment, syntax, and missing lines.
