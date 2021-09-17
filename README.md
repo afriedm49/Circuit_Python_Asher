@@ -65,6 +65,9 @@ while True:
 ### Evidence
 
 <img src="ServoGif.gif" alt="ServoGif" width="400" height="200"/>
+
+[Link to full video](https://github.com/afriedm49/Circuit_Python_Asher/blob/main/ServoVid.mp4)
+
 ### Wiring
 
 ### Reflection
