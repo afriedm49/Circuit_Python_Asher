@@ -45,30 +45,19 @@ I coded this on Mu.
 
 ### Description & Code
 
-This code makes the servo turn 180 degrees, by moving by 1 degree each step.
+This code makes the servo turn 180 degrees, wait 1.2 seconds, and then move back, and wait another 1.2 seconds.
 
-```python
-Code goes here
-#180 degrees servo code
-
-from adafruit_motor import servo
-import time
-import pwmio
-import board
-import pulseio
-
-pwm = pulseio.PWMOut(board.D8, frequency=50)
-
-
-Spinner = servo.Servo(pwm, min_pulse = 750, max_pulse = 2250)
-
+```
 while True:
-    if angle < 180:
-        for degree in range(0, 180, 1)
-        Spinner.angle = degree
-        print(angle)
-    else:
-        Spinner.angle = 0
+    Angle = Spinner.angle
+    
+    Spinner.angle = 0
+    time.sleep(1.2)
+    print(Angle)
+    Spinner.angle = 180
+    time.sleep(1.2)
+    print(Angle)
+
 ```
 
 ### Evidence
