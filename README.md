@@ -47,6 +47,8 @@ I coded this on Mu.
 
 This code makes the servo turn 180 degrees, wait 1.2 seconds, and then move back, and wait another 1.2 seconds.
 
+[Link to full code](https://github.com/afriedm49/Circuit_Python_Asher/blob/main/servo_crong.py)
+
 ```
 while True:
     Angle = Spinner.angle
