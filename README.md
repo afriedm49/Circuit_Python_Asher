@@ -41,6 +41,10 @@ I coded this on Mu.
 * After 400 loops of the blue value going down to 0, the entire loop restarts.
 * There is delay on each value change (It takes more than 0.01 seconds for each blue to decrease by 5)
 ---
+
+### Wiring
+The Metro plugs directly into the computer with USB.
+
 ## CircuitPython_Servo
 
 ### Description & Code
