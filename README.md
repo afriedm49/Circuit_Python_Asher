@@ -83,3 +83,40 @@ Credit:
 ### Reflection
 
 The coding was somewhat difficult to figure out at first. I didn't understand how the pwm function worked. I had a lot of mistakes working on it, including file managment, syntax, and missing lines.
+
+## LedUltrasonic
+
+### Description & Code
+
+This code makes an LED fade from green to blue to red, based on its distance from a surface:
+
+```
+if cm < 33:
+            blue = simpleio.map_range(sonar.distance, 5, 33, 0, 255)
+            green = simpleio.map_range(sonar.distance, 5, 33, 255, 0)
+            g = int(green)
+            b = int(blue)
+            print(cm)
+            led.fill((0, g, b))
+```
+[Full code](https://github.com/afriedm49/Circuit_Python_Asher/blob/main/ultrasonic_led_crong.py)
+
+### Evidence
+
+
+### Wiring
+
+
+### Reflection
+
+* First, I coded the led to just change color based on distance, without the fade, which worked, but didn't look nearly as nice. 
+* I had a couple syntax problems, and didn't get the serial monitor to work for a while. 
+* I started off with a faulty sensor, which wasted a good amount of time.
+* I learned how to use the round function as well, to tidy up the numbers.
+
+## LedUltrasonic
+
+### Description & Code
+### Evidence
+### Wiring
+### Reflection
