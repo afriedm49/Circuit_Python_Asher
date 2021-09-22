@@ -1,5 +1,5 @@
 # Circuit Python
-This is my engineering notebook for Junior Year, where I put documents of code.
+### This is my engineering notebook for Junior Year
 
 ## Table of Contents
 * [Table of Contents](#TableOfContents)
