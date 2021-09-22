@@ -114,7 +114,7 @@ if cm < 33:
 * I started off with a faulty sensor, which wasted a good amount of time.
 * I learned how to use the round function as well, to tidy up the numbers.
 
-## LedUltrasonic
+## Sample
 
 ### Description & Code
 ### Evidence
