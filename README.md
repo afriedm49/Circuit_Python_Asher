@@ -108,7 +108,7 @@ if cm < 33:
 <img src="https://github.com/sfunk02/CircuitPython/blob/main/Images/ultrasonicCircuit.png" alt="UltrasonicCircuit" width="400" height="200"/>
 Credit: 
 
-https://github.com/sfunk02/CircuitPython/blob/main/Images/ultrasonicCircuit.png
+[sfunk02](https://github.com/sfunk02/CircuitPython/tree/main/Images)
 
 ### Reflection
 
