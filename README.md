@@ -78,7 +78,7 @@ while True:
 <img src="servoCircuit.png" alt="ServoCircuit" width="400" height="200"/>
 Credit:
 
-[sfunk02](https://github.com/sfunk02/CircuitPython/tree/main/Images)
+[sfunk02](https://github.com/sfunk02/CircuitPython/blob/main/Images/servoCircuit.png)
 
 ### Reflection
 
@@ -108,7 +108,7 @@ if cm < 33:
 <img src="https://github.com/sfunk02/CircuitPython/blob/main/Images/ultrasonicCircuit.png" alt="UltrasonicCircuit" width="400" height="200"/>
 Credit: 
 
-[sfunk02](https://github.com/sfunk02/CircuitPython/tree/main/Images)
+[sfunk02](https://github.com/sfunk02/CircuitPython/blob/main/Images/ultrasonicCircuit.png)
 
 ### Reflection
 
