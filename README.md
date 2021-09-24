@@ -105,7 +105,10 @@ if cm < 33:
 <img src="https://github.com/afriedm49/Circuit_Python_Asher/blob/main/Ultrasonic%20Gif.gif" alt="UltrasonicGif" width="400"/>
 
 ### Wiring
+<img src="https://github.com/sfunk02/CircuitPython/blob/main/Images/ultrasonicCircuit.png" alt="UltrasonicCircuit" width="400" height="200"/>
+Credit: 
 
+https://github.com/sfunk02/CircuitPython/blob/main/Images/ultrasonicCircuit.png
 
 ### Reflection
 
