@@ -117,9 +117,35 @@ Credit:
 * I started off with a faulty sensor, which wasted a good amount of time.
 * I learned how to use the round function as well, to tidy up the numbers.
 
-## Sample
+## Lcd 
 
 ### Description & Code
+```
+while True:
+        if signswitch.value:
+            positive = not positive
+            if positive == True:
+                lcd.print("Positive")
+                time.sleep(1)
+                lcd.clear()
+            if positive == False:
+                lcd.print("Negative")
+                time.sleep(1)
+                lcd.clear()
+
+        if positive == True:
+            if countchange.value:
+                counter += 1
+                lcd.print(str(counter))
+                time.sleep(1)
+                lcd.clear()
+        if positive == False:
+            if countchange.value:
+                counter -= 1
+                lcd.print(str(counter))
+                time.sleep(1)
+                lcd.clear()
+```
 ### Evidence
 ### Wiring
 ### Reflection
