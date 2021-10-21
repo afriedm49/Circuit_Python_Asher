@@ -6,7 +6,7 @@
 * [Led_Blink_Remix](#Led_Blink_Remix)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [LedUltrasonic](#LedUltrasonic)
-* [Lcd](#Lcd)
+* [LCD](#LCD)
 ---
 
 ## Led_Blink_Remix
@@ -118,7 +118,7 @@ Credit:
 * I started off with a faulty sensor, which wasted a good amount of time.
 * I learned how to use the round function as well, to tidy up the numbers.
 
-## Lcd 
+## LCD
 
 ### Description & Code
 ```
