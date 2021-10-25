@@ -7,14 +7,21 @@
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [LedUltrasonic](#LedUltrasonic)
 * [LCD](#LCD)
+
 ---
 
 ## Led_Blink_Remix
 
-### Code
+### What does this code do?
+* The code starts by setting a range from 0 to 100, and another range from 100 to 0.
+* Every 0.01 seconds, the blue value changes by negative 5 from 100 to 0
+* Each time the blue value reaches 0, the green value changes by positive 5 until it reaches 100
+* Each time the green value reaches 100, the red value increases by 5 until it reaches 100.
+* After 400 loops of the blue value going down to 0, the entire loop restarts.
+* There is delay on each value change (It takes more than 0.01 seconds for each blue to decrease by 5)
 I coded this on Mu.
 
-```
+``` python
     import board
     import neopixel
     import time
@@ -35,13 +42,7 @@ I coded this on Mu.
                     time.sleep(0.01)
 ```
 
-### What does this code do?
-* The code starts by setting a range from 0 to 100, and another range from 100 to 0.
-* Every 0.01 seconds, the blue value changes by negative 5 from 100 to 0
-* Each time the blue value reaches 0, the green value changes by positive 5 until it reaches 100
-* Each time the green value reaches 100, the red value increases by 5 until it reaches 100.
-* After 400 loops of the blue value going down to 0, the entire loop restarts.
-* There is delay on each value change (It takes more than 0.01 seconds for each blue to decrease by 5)
+
 ---
 
 ### Wiring
