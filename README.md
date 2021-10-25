@@ -12,7 +12,7 @@
 
 ## Led_Blink_Remix
 
-### What does this code do?
+### Description and Code
 * The code starts by setting a range from 0 to 100, and another range from 100 to 0.
 * Every 0.01 seconds, the blue value changes by negative 5 from 100 to 0
 * Each time the blue value reaches 0, the green value changes by positive 5 until it reaches 100
@@ -48,6 +48,15 @@ I coded this on Mu.
 ### Wiring
 The Metro plugs directly into the computer with USB.
 
+### Evidence
+<img src="Metro_Led.jpg" alt="ServoGif" width="400" height="200"/>
+
+[Source](https://www.microcenter.com/product/503912/adafruit-industries-metro-m0-express)
+
+### Reflection
+* RGB is the integer values for red green and blue, in that order.
+* Make sure that there are correct indentations when using if and for statements (press tab whenever putting a loop within a loop).
+
 ## CircuitPython_Servo
 
 ### Description & Code
@@ -56,7 +65,7 @@ This code makes the servo turn 180 degrees, wait 1.2 seconds, and then move back
 
 [Link to full code](https://github.com/afriedm49/Circuit_Python_Asher/blob/main/servo_crong.py)
 
-```
+``` python
 while True:
     Angle = Spinner.angle
     
@@ -84,7 +93,8 @@ Credit:
 
 ### Reflection
 
-The coding was somewhat difficult to figure out at first. I didn't understand how the pwm function worked. I had a lot of mistakes working on it, including file managment, syntax, and missing lines.
+* I didn't understand how the pwm function worked until finding [this website](https://docs.micropython.org/en/latest/esp8266/tutorial/pwm.html)
+* I had a lot of mistakes working on it, including file managment, syntax, and missing lines. Learn to correctly format Python before, and put your files in the correct folder beforehand.
 
 ## LedUltrasonic
 
@@ -92,7 +102,7 @@ The coding was somewhat difficult to figure out at first. I didn't understand ho
 
 This code makes an LED fade from green to blue to red, based on its distance from a surface:
 
-```
+``` python
 if cm < 33:
             blue = simpleio.map_range(sonar.distance, 5, 33, 0, 255)
             green = simpleio.map_range(sonar.distance, 5, 33, 255, 0)
