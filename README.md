@@ -124,10 +124,9 @@ Credit:
 
 ### Reflection
 
-* First, I coded the led to just change color based on distance, without the fade, which worked, but didn't look nearly as nice. 
-* I had a couple syntax problems, and didn't get the serial monitor to work for a while. 
-* I started off with a faulty sensor, which wasted a good amount of time.
-* I learned how to use the round function as well, to tidy up the numbers.
+* I had a couple syntax problems, and didn't get the serial monitor to work for a while. Before completing the code, use the auto-checker to see if the syntax is formatted correctly.
+* I started off with a faulty sensor, which wasted a good amount of time, so it is important to check each thing that could be faulty in order to figure out which piece is the problem
+* I learned how to use the round function as well, to tidy up the numbers. Round() turns a float into an integer, so it is very helpful for a clean code.
 
 ## LCD
 
