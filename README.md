@@ -161,7 +161,47 @@ while True:
 ### Wiring
 ### Reflection
 
-## RGB_Classes
+## Photointerrupter
+
+### Description and Code
+```
+#### Code credit to https://github.com/gventre04/CircuitPython
+
+from digitalio import DigitalInOut, Direction, Pull
+import time
+import board
+
+interrupter = DigitalInOut(board.D7)
+interrupter.direction = Direction.INPUT
+interrupter.pull = Pull.UP
+
+counter = 0
+interval = 4        # sets interal between each print in seconds
+
+photo = False
+state = False
+
+max = interval
+start = time.time()
+while True:
+    photo = interrupter.value
+    if photo and not state:
+        counter += 1             # counts each time the photointerrupter is interrupted
+    state = photo
+
+    remaining = max - time.time()
+
+    if remaining <= 0:
+        print("Interrupts:", str(counter))  # prints counter value
+        max = time.time() + interval
+        counter = 0
+
+```
+### Evidence
+### Wiring
+### Reflection
+
+## RGB_Classes_LED
 ### Description & Code
 ```
 
@@ -172,5 +212,8 @@ while True:
 
 ### Wiring
 ### Reflection
+* Using classes can help greatly when it comes to organization, as well as creating new instances of objects for efficiency.
+* It is important to note that you cannot call a function using a variable to replace the function name. For instance: the function blinky.cyan, cannot be called as blinky.color, if you want to replace a certain color method in the function.
+
 
 
