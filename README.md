@@ -165,10 +165,21 @@ while True:
 
 ### Description and Code
 ```
+import time
+
+initial = time.monotonic()  # Time in seconds since power on
+
+while True:
+    now = time.monotonic()
+    if now - initial > 4:  # If 3 milliseconds elapses
+        print("I have been interrupted" + str(interrupts) + "time")
+    else:
+        initial = now
+
 #### Code credit to https://github.com/gventre04/CircuitPython
 
 from digitalio import DigitalInOut, Direction, Pull
-import time
+
 import board
 
 interrupter = DigitalInOut(board.D7)
